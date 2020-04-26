@@ -18,7 +18,8 @@ namespace Study
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new fm_String());
             //Application.Run(new fm_DataType());
-            Application.Run(new fm_Method());
+            //Application.Run(new fm_Method());
+            Application.Run(new fm_Operator());
         }
     }
 }
