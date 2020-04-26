@@ -1,0 +1,11 @@
+D:\Study\Visual Studio\Study\Study\bin\Debug\Study.exe.config
+D:\Study\Visual Studio\Study\Study\bin\Debug\Study.exe
+D:\Study\Visual Studio\Study\Study\bin\Debug\Study.pdb
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.csprojAssemblyReference.cache
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.Properties.Resources.resources
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.csproj.GenerateResource.cache
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.exe
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.pdb
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.fm_String.resources
+D:\Study\Visual Studio\Study\Study\obj\Debug\Study.fm_DataType.resources
