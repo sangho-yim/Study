@@ -21,3 +21,4 @@ D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.cspro
 D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
 D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.exe
 D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.pdb
+D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.fm_Operator.resources
