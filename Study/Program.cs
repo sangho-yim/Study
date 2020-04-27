@@ -6,6 +6,9 @@ using System.Windows.Forms;
 
 namespace Study
 {
+    // https://cwkcw.tistory.com/category/C%23/C%23%20%EA%B0%95%EC%A2%8C%20Winform
+    // https://www.youtube.com/watch?v=boUIc2Y4cZo&list=PLoFFz2j8yxxxH_3ustbHATXtMsHZ-Saei
+
     static class Program
     {
         /// <summary>
@@ -19,7 +22,8 @@ namespace Study
             //Application.Run(new fm_String());
             //Application.Run(new fm_DataType());
             //Application.Run(new fm_Method());
-            Application.Run(new fm_Operator());
+            //Application.Run(new fm_Operator());
+            Application.Run(new fm_Enum());
         }
     }
 }
