@@ -22,3 +22,4 @@ D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.cspro
 D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.exe
 D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.pdb
 D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.fm_Operator.resources
+D:\Study\Visual Studio\github\Repos\sangho-yim\Study\Study\obj\Debug\Study.fm_Enum.resources

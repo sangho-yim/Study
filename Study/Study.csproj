@@ -70,6 +70,12 @@
     <Compile Include="4.Operator.Designer.cs">
       <DependentUpon>4.Operator.cs</DependentUpon>
     </Compile>
+    <Compile Include="5.Enum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.Enum.Designer.cs">
+      <DependentUpon>5.Enum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="1.String.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="4.Operator.resx">
       <DependentUpon>4.Operator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.Enum.resx">
+      <DependentUpon>5.Enum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
