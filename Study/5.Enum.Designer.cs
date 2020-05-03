@@ -102,7 +102,7 @@
             this.Controls.Add(this.lbox_Day);
             this.Controls.Add(this.tbox_Name);
             this.Name = "fm_Enum";
-            this.Text = "Form1";
+            this.Text = "5.Enum";
             this.Load += new System.EventHandler(this.fm_Enum_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

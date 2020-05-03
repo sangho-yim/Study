@@ -189,7 +189,7 @@
             this.Controls.Add(this.tb_ResultAfter);
             this.Controls.Add(this.tb_Result);
             this.Name = "fm_Operator";
-            this.Text = "Form1";
+            this.Text = "4.Operator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
