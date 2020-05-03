@@ -181,7 +181,7 @@
             this.Controls.Add(this.bt_AutoChange);
             this.Controls.Add(this.tb_Number);
             this.Name = "fm_DataType";
-            this.Text = "Form2";
+            this.Text = "2.DataType";
             this.ResumeLayout(false);
             this.PerformLayout();
 

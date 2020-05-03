@@ -302,7 +302,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lb_Text);
             this.Name = "fm_String";
-            this.Text = "Form1";
+            this.Text = "1.String";
             this.ResumeLayout(false);
             this.PerformLayout();
 
