@@ -33,79 +33,79 @@ namespace Study
             InitializeComponent();
         }
 
-        private void bt_Short_Click(object sender, EventArgs e)
+        private void btShort_Click(object sender, EventArgs e)
         {
             try
             {
-                short sNumber = short.Parse(tb_Number.Text);
-                lb_Short.Text = sNumber.ToString();
-                lb_Exception.Text = "...";
+                short sNumber = short.Parse(tbNumber.Text);
+                lbShort.Text = sNumber.ToString();
+                lbException.Text = "...";
             }
             catch(Exception ex)
             {
-                lb_Short.Text = "Error";
-                lb_Exception.Text = ex.ToString();
+                lbShort.Text = "Error";
+                lbException.Text = ex.ToString();
             }
         }
 
-        private void bt_Int_Click(object sender, EventArgs e)
+        private void btInt_Click(object sender, EventArgs e)
         {
             try
             {
-                int sNumber = int.Parse(tb_Number.Text);
-                lb_Int.Text = sNumber.ToString();
-                lb_Exception.Text = "...";
+                int sNumber = int.Parse(tbNumber.Text);
+                lbInt.Text = sNumber.ToString();
+                lbException.Text = "...";
             }
             catch (Exception ex)
             {
-                lb_Int.Text = "Error";
-                lb_Exception.Text = ex.ToString();
+                lbInt.Text = "Error";
+                lbException.Text = ex.ToString();
             }
         }
 
-        private void bt_Double_Click(object sender, EventArgs e)
+        private void btDouble_Click(object sender, EventArgs e)
         {
             try
             {
-                Double sNumber = Double.Parse(tb_Number.Text);
-                lb_Double.Text = sNumber.ToString();
-                lb_Exception.Text = "...";
+                Double sNumber = Double.Parse(tbNumber.Text);
+                lbDouble.Text = sNumber.ToString();
+                lbException.Text = "...";
             }
             catch (Exception ex)
             {
-                lb_Double.Text = "Error";
-                lb_Exception.Text = ex.ToString();
+                lbDouble.Text = "Error";
+                lbException.Text = ex.ToString();
             }
         }
 
-        private void bt_AutoChange_Click(object sender, EventArgs e)
+        private void btAutoChange_Click(object sender, EventArgs e)
         {
             short sNumber = 0;
             int iNumber = 0;
             double dNumber = 0;
-            lb_Exception.Text = "...";
+            lbException.Text = "...";
 
-            if (short.TryParse(tb_Number.Text,out sNumber))
+            if (short.TryParse(tbNumber.Text,out sNumber))
             {
-                lb_Short.Text = sNumber.ToString();
-                lb_Int.Text = "0";
-                lb_Double.Text = "0";
+                lbShort.Text = sNumber.ToString();
+                lbInt.Text = "0";
+                lbDouble.Text = "0";
             }
-            else if (int.TryParse(tb_Number.Text, out iNumber))
+            else if (int.TryParse(tbNumber.Text, out iNumber))
             {
-                lb_Short.Text = "0";
-                lb_Int.Text = iNumber.ToString();
-                lb_Double.Text = "0";
+                lbShort.Text = "0";
+                lbInt.Text = iNumber.ToString();
+                lbDouble.Text = "0";
             }
-            else if (double.TryParse(tb_Number.Text, out dNumber))
+            else if (double.TryParse(tbNumber.Text, out dNumber))
             {
-                lb_Short.Text = "0";
-                lb_Int.Text = "0";
-                lb_Double.Text = dNumber.ToString();
+                lbShort.Text = "0";
+                lbInt.Text = "0";
+                lbDouble.Text = dNumber.ToString();
             }
             else
             {
-                lb_Exception.Text = "변환할 수 없음";
+                lbException.Text = "변환할 수 없음";
             }
         }
     }
