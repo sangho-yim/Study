@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_Comment
+    partial class fmComment
     {
         /// <summary>
         /// Required designer variable.

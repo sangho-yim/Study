@@ -34,9 +34,9 @@ namespace Study
     // int[] iDay1 = {10, 25, 3, 5, 7, 15, 17}
 
 
-    public partial class FmArray : Form
+    public partial class fmArray : Form
     {
-        public FmArray()
+        public fmArray()
         {
             InitializeComponent();
             ArrayTest();

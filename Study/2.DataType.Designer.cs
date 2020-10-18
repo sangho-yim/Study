@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_DataType
+    partial class fmDataType
     {
         /// <summary>
         /// Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_Method
+    partial class fmMethod
     {
         /// <summary>
         /// Required designer variable.

@@ -26,9 +26,9 @@ namespace Study
     // char(16): 0 ~ 65536
     // Overflow: 메모리 용량을 넘어선 값이 들어가 생기는 오류
 
-    public partial class fm_DataType : Form
+    public partial class fmDataType : Form
     {
-        public fm_DataType()
+        public fmDataType()
         {
             InitializeComponent();
         }

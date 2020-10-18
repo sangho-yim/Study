@@ -19,9 +19,9 @@ namespace Study
     // ToLower: 문자열을 소문자로 변환
     // ToUpper: 문자열을 대문자로 변환
     // Trim: 문자열 전, 후의 공백을 제거
-    public partial class fm_String : Form
+    public partial class fmString : Form
     {
-        public fm_String()
+        public fmString()
         {
             InitializeComponent();
         }

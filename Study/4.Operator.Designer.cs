@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_Operator
+    partial class fmOperator
     {
         /// <summary>
         /// Required designer variable.

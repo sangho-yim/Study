@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_Enum
+    partial class fmEnum
     {
         /// <summary>
         /// Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class FmArray
+    partial class fmArray
     {
         /// <summary>
         /// Required designer variable.
