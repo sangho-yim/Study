@@ -15,9 +15,9 @@ namespace Study
     // 이전 코드를 남겨 놓음으로 변경 사유나 위치를 확인 가능
     // 임시로 코드를 막음으로 프로그램의 진행 상황 등을 파악
     // /// 세개를 사용하면 메소드에 대한 설명을 넣을 수 있다.
-    public partial class fm_Comment : Form
+    public partial class fmComment : Form
     {
-        public fm_Comment()
+        public fmComment()
         {
             InitializeComponent();
         }

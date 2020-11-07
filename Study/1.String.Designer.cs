@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_String
+    partial class fmString
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lb_Text = new System.Windows.Forms.Label();
+            this.lbText = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -39,28 +39,28 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.lb_Contain = new System.Windows.Forms.Label();
-            this.lb_Equals = new System.Windows.Forms.Label();
-            this.lb_Length = new System.Windows.Forms.Label();
-            this.lb_Replace = new System.Windows.Forms.Label();
-            this.lb_Split1 = new System.Windows.Forms.Label();
-            this.lb_Substring = new System.Windows.Forms.Label();
-            this.lb_ToLower = new System.Windows.Forms.Label();
-            this.lb_ToUpper = new System.Windows.Forms.Label();
-            this.lb_Trim = new System.Windows.Forms.Label();
-            this.lb_Split2 = new System.Windows.Forms.Label();
-            this.lb_Split3 = new System.Windows.Forms.Label();
+            this.lbContain = new System.Windows.Forms.Label();
+            this.lbEquals = new System.Windows.Forms.Label();
+            this.lbLength = new System.Windows.Forms.Label();
+            this.lbReplace = new System.Windows.Forms.Label();
+            this.lbSplit1 = new System.Windows.Forms.Label();
+            this.lbSubstring = new System.Windows.Forms.Label();
+            this.lbToLower = new System.Windows.Forms.Label();
+            this.lbToUpper = new System.Windows.Forms.Label();
+            this.lbTrim = new System.Windows.Forms.Label();
+            this.lbSplit2 = new System.Windows.Forms.Label();
+            this.lbSplit3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lb_Text
             // 
-            this.lb_Text.AutoSize = true;
-            this.lb_Text.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Text.Location = new System.Drawing.Point(73, 46);
-            this.lb_Text.Name = "lb_Text";
-            this.lb_Text.Size = new System.Drawing.Size(228, 26);
-            this.lb_Text.TabIndex = 0;
-            this.lb_Text.Text = "Sample, Test, Text";
+            this.lbText.AutoSize = true;
+            this.lbText.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbText.Location = new System.Drawing.Point(73, 46);
+            this.lbText.Name = "lb_Text";
+            this.lbText.Size = new System.Drawing.Size(228, 26);
+            this.lbText.TabIndex = 0;
+            this.lbText.Text = "Sample, Test, Text";
             // 
             // button1
             // 
@@ -71,7 +71,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label2
             // 
@@ -165,113 +165,113 @@
             // 
             // lb_Contain
             // 
-            this.lb_Contain.AutoSize = true;
-            this.lb_Contain.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Contain.Location = new System.Drawing.Point(201, 130);
-            this.lb_Contain.Name = "lb_Contain";
-            this.lb_Contain.Size = new System.Drawing.Size(48, 26);
-            this.lb_Contain.TabIndex = 4;
-            this.lb_Contain.Text = "...";
+            this.lbContain.AutoSize = true;
+            this.lbContain.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbContain.Location = new System.Drawing.Point(201, 130);
+            this.lbContain.Name = "lb_Contain";
+            this.lbContain.Size = new System.Drawing.Size(48, 26);
+            this.lbContain.TabIndex = 4;
+            this.lbContain.Text = "...";
             // 
             // lb_Equals
             // 
-            this.lb_Equals.AutoSize = true;
-            this.lb_Equals.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Equals.Location = new System.Drawing.Point(201, 183);
-            this.lb_Equals.Name = "lb_Equals";
-            this.lb_Equals.Size = new System.Drawing.Size(48, 26);
-            this.lb_Equals.TabIndex = 4;
-            this.lb_Equals.Text = "...";
+            this.lbEquals.AutoSize = true;
+            this.lbEquals.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbEquals.Location = new System.Drawing.Point(201, 183);
+            this.lbEquals.Name = "lb_Equals";
+            this.lbEquals.Size = new System.Drawing.Size(48, 26);
+            this.lbEquals.TabIndex = 4;
+            this.lbEquals.Text = "...";
             // 
             // lb_Length
             // 
-            this.lb_Length.AutoSize = true;
-            this.lb_Length.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Length.Location = new System.Drawing.Point(201, 236);
-            this.lb_Length.Name = "lb_Length";
-            this.lb_Length.Size = new System.Drawing.Size(48, 26);
-            this.lb_Length.TabIndex = 4;
-            this.lb_Length.Text = "...";
+            this.lbLength.AutoSize = true;
+            this.lbLength.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbLength.Location = new System.Drawing.Point(201, 236);
+            this.lbLength.Name = "lb_Length";
+            this.lbLength.Size = new System.Drawing.Size(48, 26);
+            this.lbLength.TabIndex = 4;
+            this.lbLength.Text = "...";
             // 
             // lb_Replace
             // 
-            this.lb_Replace.AutoSize = true;
-            this.lb_Replace.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Replace.Location = new System.Drawing.Point(201, 289);
-            this.lb_Replace.Name = "lb_Replace";
-            this.lb_Replace.Size = new System.Drawing.Size(48, 26);
-            this.lb_Replace.TabIndex = 4;
-            this.lb_Replace.Text = "...";
+            this.lbReplace.AutoSize = true;
+            this.lbReplace.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbReplace.Location = new System.Drawing.Point(201, 289);
+            this.lbReplace.Name = "lb_Replace";
+            this.lbReplace.Size = new System.Drawing.Size(48, 26);
+            this.lbReplace.TabIndex = 4;
+            this.lbReplace.Text = "...";
             // 
             // lb_Split1
             // 
-            this.lb_Split1.AutoSize = true;
-            this.lb_Split1.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Split1.Location = new System.Drawing.Point(201, 342);
-            this.lb_Split1.Name = "lb_Split1";
-            this.lb_Split1.Size = new System.Drawing.Size(48, 26);
-            this.lb_Split1.TabIndex = 4;
-            this.lb_Split1.Text = "...";
+            this.lbSplit1.AutoSize = true;
+            this.lbSplit1.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbSplit1.Location = new System.Drawing.Point(201, 342);
+            this.lbSplit1.Name = "lb_Split1";
+            this.lbSplit1.Size = new System.Drawing.Size(48, 26);
+            this.lbSplit1.TabIndex = 4;
+            this.lbSplit1.Text = "...";
             // 
             // lb_Substring
             // 
-            this.lb_Substring.AutoSize = true;
-            this.lb_Substring.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Substring.Location = new System.Drawing.Point(201, 487);
-            this.lb_Substring.Name = "lb_Substring";
-            this.lb_Substring.Size = new System.Drawing.Size(48, 26);
-            this.lb_Substring.TabIndex = 4;
-            this.lb_Substring.Text = "...";
+            this.lbSubstring.AutoSize = true;
+            this.lbSubstring.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbSubstring.Location = new System.Drawing.Point(201, 487);
+            this.lbSubstring.Name = "lb_Substring";
+            this.lbSubstring.Size = new System.Drawing.Size(48, 26);
+            this.lbSubstring.TabIndex = 4;
+            this.lbSubstring.Text = "...";
             // 
             // lb_ToLower
             // 
-            this.lb_ToLower.AutoSize = true;
-            this.lb_ToLower.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_ToLower.Location = new System.Drawing.Point(201, 540);
-            this.lb_ToLower.Name = "lb_ToLower";
-            this.lb_ToLower.Size = new System.Drawing.Size(48, 26);
-            this.lb_ToLower.TabIndex = 4;
-            this.lb_ToLower.Text = "...";
+            this.lbToLower.AutoSize = true;
+            this.lbToLower.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbToLower.Location = new System.Drawing.Point(201, 540);
+            this.lbToLower.Name = "lb_ToLower";
+            this.lbToLower.Size = new System.Drawing.Size(48, 26);
+            this.lbToLower.TabIndex = 4;
+            this.lbToLower.Text = "...";
             // 
             // lb_ToUpper
             // 
-            this.lb_ToUpper.AutoSize = true;
-            this.lb_ToUpper.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_ToUpper.Location = new System.Drawing.Point(201, 593);
-            this.lb_ToUpper.Name = "lb_ToUpper";
-            this.lb_ToUpper.Size = new System.Drawing.Size(48, 26);
-            this.lb_ToUpper.TabIndex = 4;
-            this.lb_ToUpper.Text = "...";
+            this.lbToUpper.AutoSize = true;
+            this.lbToUpper.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbToUpper.Location = new System.Drawing.Point(201, 593);
+            this.lbToUpper.Name = "lb_ToUpper";
+            this.lbToUpper.Size = new System.Drawing.Size(48, 26);
+            this.lbToUpper.TabIndex = 4;
+            this.lbToUpper.Text = "...";
             // 
             // lb_Trim
             // 
-            this.lb_Trim.AutoSize = true;
-            this.lb_Trim.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Trim.Location = new System.Drawing.Point(201, 646);
-            this.lb_Trim.Name = "lb_Trim";
-            this.lb_Trim.Size = new System.Drawing.Size(48, 26);
-            this.lb_Trim.TabIndex = 4;
-            this.lb_Trim.Text = "...";
+            this.lbTrim.AutoSize = true;
+            this.lbTrim.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbTrim.Location = new System.Drawing.Point(201, 646);
+            this.lbTrim.Name = "lb_Trim";
+            this.lbTrim.Size = new System.Drawing.Size(48, 26);
+            this.lbTrim.TabIndex = 4;
+            this.lbTrim.Text = "...";
             // 
             // lb_Split2
             // 
-            this.lb_Split2.AutoSize = true;
-            this.lb_Split2.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Split2.Location = new System.Drawing.Point(201, 387);
-            this.lb_Split2.Name = "lb_Split2";
-            this.lb_Split2.Size = new System.Drawing.Size(48, 26);
-            this.lb_Split2.TabIndex = 4;
-            this.lb_Split2.Text = "...";
+            this.lbSplit2.AutoSize = true;
+            this.lbSplit2.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbSplit2.Location = new System.Drawing.Point(201, 387);
+            this.lbSplit2.Name = "lb_Split2";
+            this.lbSplit2.Size = new System.Drawing.Size(48, 26);
+            this.lbSplit2.TabIndex = 4;
+            this.lbSplit2.Text = "...";
             // 
             // lb_Split3
             // 
-            this.lb_Split3.AutoSize = true;
-            this.lb_Split3.Font = new System.Drawing.Font("Consolas", 16F);
-            this.lb_Split3.Location = new System.Drawing.Point(201, 431);
-            this.lb_Split3.Name = "lb_Split3";
-            this.lb_Split3.Size = new System.Drawing.Size(48, 26);
-            this.lb_Split3.TabIndex = 4;
-            this.lb_Split3.Text = "...";
+            this.lbSplit3.AutoSize = true;
+            this.lbSplit3.Font = new System.Drawing.Font("Consolas", 16F);
+            this.lbSplit3.Location = new System.Drawing.Point(201, 431);
+            this.lbSplit3.Name = "lb_Split3";
+            this.lbSplit3.Size = new System.Drawing.Size(48, 26);
+            this.lbSplit3.TabIndex = 4;
+            this.lbSplit3.Text = "...";
             // 
             // fm_String
             // 
@@ -279,17 +279,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(609, 731);
-            this.Controls.Add(this.lb_Trim);
-            this.Controls.Add(this.lb_ToUpper);
-            this.Controls.Add(this.lb_ToLower);
-            this.Controls.Add(this.lb_Substring);
-            this.Controls.Add(this.lb_Split3);
-            this.Controls.Add(this.lb_Split2);
-            this.Controls.Add(this.lb_Split1);
-            this.Controls.Add(this.lb_Replace);
-            this.Controls.Add(this.lb_Length);
-            this.Controls.Add(this.lb_Equals);
-            this.Controls.Add(this.lb_Contain);
+            this.Controls.Add(this.lbTrim);
+            this.Controls.Add(this.lbToUpper);
+            this.Controls.Add(this.lbToLower);
+            this.Controls.Add(this.lbSubstring);
+            this.Controls.Add(this.lbSplit3);
+            this.Controls.Add(this.lbSplit2);
+            this.Controls.Add(this.lbSplit1);
+            this.Controls.Add(this.lbReplace);
+            this.Controls.Add(this.lbLength);
+            this.Controls.Add(this.lbEquals);
+            this.Controls.Add(this.lbContain);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -300,7 +300,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lb_Text);
+            this.Controls.Add(this.lbText);
             this.Name = "fm_String";
             this.Text = "1.String";
             this.ResumeLayout(false);
@@ -310,7 +310,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lb_Text;
+        private System.Windows.Forms.Label lbText;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -321,17 +321,17 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lb_Contain;
-        private System.Windows.Forms.Label lb_Equals;
-        private System.Windows.Forms.Label lb_Length;
-        private System.Windows.Forms.Label lb_Replace;
-        private System.Windows.Forms.Label lb_Split1;
-        private System.Windows.Forms.Label lb_Substring;
-        private System.Windows.Forms.Label lb_ToLower;
-        private System.Windows.Forms.Label lb_ToUpper;
-        private System.Windows.Forms.Label lb_Trim;
-        private System.Windows.Forms.Label lb_Split2;
-        private System.Windows.Forms.Label lb_Split3;
+        private System.Windows.Forms.Label lbContain;
+        private System.Windows.Forms.Label lbEquals;
+        private System.Windows.Forms.Label lbLength;
+        private System.Windows.Forms.Label lbReplace;
+        private System.Windows.Forms.Label lbSplit1;
+        private System.Windows.Forms.Label lbSubstring;
+        private System.Windows.Forms.Label lbToLower;
+        private System.Windows.Forms.Label lbToUpper;
+        private System.Windows.Forms.Label lbTrim;
+        private System.Windows.Forms.Label lbSplit2;
+        private System.Windows.Forms.Label lbSplit3;
     }
 }
 

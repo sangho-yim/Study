@@ -15,9 +15,9 @@ namespace Study
     // 프로그램 개발에서 실수를 줄이고 가독성을 높임
     // 0부터 순차적으로 값이 부여되나 명시적으로 설정 가능
 
-    public partial class fm_Enum : Form
+    public partial class fmEnum : Form
     {
-        public fm_Enum()
+        public fmEnum()
         {
             InitializeComponent();
         }

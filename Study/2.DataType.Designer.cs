@@ -1,6 +1,6 @@
 ﻿namespace Study
 {
-    partial class fm_DataType
+    partial class fmDataType
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tb_Number = new System.Windows.Forms.TextBox();
+            this.tbNumber = new System.Windows.Forms.TextBox();
             this.bt_AutoChange = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lb_Short = new System.Windows.Forms.Label();
-            this.lb_Int = new System.Windows.Forms.Label();
-            this.lb_Double = new System.Windows.Forms.Label();
-            this.lb_Exception = new System.Windows.Forms.Label();
+            this.lbShort = new System.Windows.Forms.Label();
+            this.lbInt = new System.Windows.Forms.Label();
+            this.lbDouble = new System.Windows.Forms.Label();
+            this.lbException = new System.Windows.Forms.Label();
             this.bt_Short = new System.Windows.Forms.Button();
             this.bt_Int = new System.Windows.Forms.Button();
             this.bt_Double = new System.Windows.Forms.Button();
@@ -45,10 +45,10 @@
             // 
             // tb_Number
             // 
-            this.tb_Number.Location = new System.Drawing.Point(24, 21);
-            this.tb_Number.Name = "tb_Number";
-            this.tb_Number.Size = new System.Drawing.Size(529, 21);
-            this.tb_Number.TabIndex = 0;
+            this.tbNumber.Location = new System.Drawing.Point(24, 21);
+            this.tbNumber.Name = "tb_Number";
+            this.tbNumber.Size = new System.Drawing.Size(529, 21);
+            this.tbNumber.TabIndex = 0;
             // 
             // bt_AutoChange
             // 
@@ -58,7 +58,7 @@
             this.bt_AutoChange.TabIndex = 1;
             this.bt_AutoChange.Text = "알아서 변환";
             this.bt_AutoChange.UseVisualStyleBackColor = true;
-            this.bt_AutoChange.Click += new System.EventHandler(this.bt_AutoChange_Click);
+            this.bt_AutoChange.Click += new System.EventHandler(this.btAutoChange_Click);
             // 
             // label1
             // 
@@ -98,39 +98,39 @@
             // 
             // lb_Short
             // 
-            this.lb_Short.AutoSize = true;
-            this.lb_Short.Location = new System.Drawing.Point(165, 96);
-            this.lb_Short.Name = "lb_Short";
-            this.lb_Short.Size = new System.Drawing.Size(11, 12);
-            this.lb_Short.TabIndex = 5;
-            this.lb_Short.Text = "0";
+            this.lbShort.AutoSize = true;
+            this.lbShort.Location = new System.Drawing.Point(165, 96);
+            this.lbShort.Name = "lb_Short";
+            this.lbShort.Size = new System.Drawing.Size(11, 12);
+            this.lbShort.TabIndex = 5;
+            this.lbShort.Text = "0";
             // 
             // lb_Int
             // 
-            this.lb_Int.AutoSize = true;
-            this.lb_Int.Location = new System.Drawing.Point(165, 137);
-            this.lb_Int.Name = "lb_Int";
-            this.lb_Int.Size = new System.Drawing.Size(11, 12);
-            this.lb_Int.TabIndex = 5;
-            this.lb_Int.Text = "0";
+            this.lbInt.AutoSize = true;
+            this.lbInt.Location = new System.Drawing.Point(165, 137);
+            this.lbInt.Name = "lb_Int";
+            this.lbInt.Size = new System.Drawing.Size(11, 12);
+            this.lbInt.TabIndex = 5;
+            this.lbInt.Text = "0";
             // 
             // lb_Double
             // 
-            this.lb_Double.AutoSize = true;
-            this.lb_Double.Location = new System.Drawing.Point(165, 179);
-            this.lb_Double.Name = "lb_Double";
-            this.lb_Double.Size = new System.Drawing.Size(11, 12);
-            this.lb_Double.TabIndex = 5;
-            this.lb_Double.Text = "0";
+            this.lbDouble.AutoSize = true;
+            this.lbDouble.Location = new System.Drawing.Point(165, 179);
+            this.lbDouble.Name = "lb_Double";
+            this.lbDouble.Size = new System.Drawing.Size(11, 12);
+            this.lbDouble.TabIndex = 5;
+            this.lbDouble.Text = "0";
             // 
             // lb_Exception
             // 
-            this.lb_Exception.AutoSize = true;
-            this.lb_Exception.Location = new System.Drawing.Point(165, 216);
-            this.lb_Exception.Name = "lb_Exception";
-            this.lb_Exception.Size = new System.Drawing.Size(17, 12);
-            this.lb_Exception.TabIndex = 5;
-            this.lb_Exception.Text = "...";
+            this.lbException.AutoSize = true;
+            this.lbException.Location = new System.Drawing.Point(165, 216);
+            this.lbException.Name = "lb_Exception";
+            this.lbException.Size = new System.Drawing.Size(17, 12);
+            this.lbException.TabIndex = 5;
+            this.lbException.Text = "...";
             // 
             // bt_Short
             // 
@@ -140,7 +140,7 @@
             this.bt_Short.TabIndex = 1;
             this.bt_Short.Text = "Short 변환";
             this.bt_Short.UseVisualStyleBackColor = true;
-            this.bt_Short.Click += new System.EventHandler(this.bt_Short_Click);
+            this.bt_Short.Click += new System.EventHandler(this.btShort_Click);
             // 
             // bt_Int
             // 
@@ -150,7 +150,7 @@
             this.bt_Int.TabIndex = 1;
             this.bt_Int.Text = "Int 변환";
             this.bt_Int.UseVisualStyleBackColor = true;
-            this.bt_Int.Click += new System.EventHandler(this.bt_Int_Click);
+            this.bt_Int.Click += new System.EventHandler(this.btInt_Click);
             // 
             // bt_Double
             // 
@@ -160,17 +160,17 @@
             this.bt_Double.TabIndex = 1;
             this.bt_Double.Text = "Double 변환";
             this.bt_Double.UseVisualStyleBackColor = true;
-            this.bt_Double.Click += new System.EventHandler(this.bt_Double_Click);
+            this.bt_Double.Click += new System.EventHandler(this.btDouble_Click);
             // 
             // fm_DataType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1005, 326);
-            this.Controls.Add(this.lb_Exception);
-            this.Controls.Add(this.lb_Double);
-            this.Controls.Add(this.lb_Int);
-            this.Controls.Add(this.lb_Short);
+            this.Controls.Add(this.lbException);
+            this.Controls.Add(this.lbDouble);
+            this.Controls.Add(this.lbInt);
+            this.Controls.Add(this.lbShort);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -179,7 +179,7 @@
             this.Controls.Add(this.bt_Int);
             this.Controls.Add(this.bt_Short);
             this.Controls.Add(this.bt_AutoChange);
-            this.Controls.Add(this.tb_Number);
+            this.Controls.Add(this.tbNumber);
             this.Name = "fm_DataType";
             this.Text = "2.DataType";
             this.ResumeLayout(false);
@@ -189,16 +189,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox tb_Number;
+        private System.Windows.Forms.TextBox tbNumber;
         private System.Windows.Forms.Button bt_AutoChange;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lb_Short;
-        private System.Windows.Forms.Label lb_Int;
-        private System.Windows.Forms.Label lb_Double;
-        private System.Windows.Forms.Label lb_Exception;
+        private System.Windows.Forms.Label lbShort;
+        private System.Windows.Forms.Label lbInt;
+        private System.Windows.Forms.Label lbDouble;
+        private System.Windows.Forms.Label lbException;
         private System.Windows.Forms.Button bt_Short;
         private System.Windows.Forms.Button bt_Int;
         private System.Windows.Forms.Button bt_Double;

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Study
 {
-    public partial class fm_Method : Form
+    public partial class fmMethod : Form
     {
-        public fm_Method()
+        public fmMethod()
         {
             InitializeComponent();
         }

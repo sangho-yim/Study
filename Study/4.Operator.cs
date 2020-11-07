@@ -18,9 +18,9 @@ namespace Study
     // 비트: &, |, ^
     // 시프트: >>, <<
 
-    public partial class fm_Operator : Form
+    public partial class fmOperator : Form
     {
-        public fm_Operator()
+        public fmOperator()
         {
             InitializeComponent();
         }

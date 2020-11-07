@@ -19,32 +19,32 @@ namespace Study
     // ToLower: 문자열을 소문자로 변환
     // ToUpper: 문자열을 대문자로 변환
     // Trim: 문자열 전, 후의 공백을 제거
-    public partial class fm_String : Form
+    public partial class fmString : Form
     {
-        public fm_String()
+        public fmString()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             // Sample, Test, Text
-            string strText = lb_Text.Text;
+            string strText = lbText.Text;
             
-            lb_Contain.Text = strText.Contains("Text").ToString();
-            lb_Equals.Text = strText.Equals("Text").ToString();
-            lb_Length.Text = strText.Length.ToString();
-            lb_Replace.Text = strText.Replace("Test","newTest");
+            lbContain.Text = strText.Contains("Text").ToString();
+            lbEquals.Text = strText.Equals("Text").ToString();
+            lbLength.Text = strText.Length.ToString();
+            lbReplace.Text = strText.Replace("Test","newTest");
             
             string[] strSplit = strText.Split(',');
-            lb_Split1.Text = strSplit[0].ToString();
-            lb_Split2.Text = strSplit[1].ToString().Trim();
-            lb_Split3.Text = strSplit[2].ToString().Trim();
+            lbSplit1.Text = strSplit[0].ToString();
+            lbSplit2.Text = strSplit[1].ToString().Trim();
+            lbSplit3.Text = strSplit[2].ToString().Trim();
 
-            lb_Substring.Text = strText.Substring(3, 5).ToString();
-            lb_ToLower.Text = strText.ToLower().ToString();
-            lb_ToUpper.Text = strText.ToUpper().ToString();
-            lb_Trim.Text = strText.Trim().ToString();
+            lbSubstring.Text = strText.Substring(3, 5).ToString();
+            lbToLower.Text = strText.ToLower().ToString();
+            lbToUpper.Text = strText.ToUpper().ToString();
+            lbTrim.Text = strText.Trim().ToString();
         }
     }
 }

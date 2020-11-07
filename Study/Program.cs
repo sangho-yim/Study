@@ -23,7 +23,10 @@ namespace Study
             //Application.Run(new fm_DataType());
             //Application.Run(new fm_Method());
             //Application.Run(new fm_Operator());
-            Application.Run(new fm_Enum());
+            //Application.Run(new fm_Enum());
+            //Application.Run(new FmArray());
+            //Application.Run(new fmIfElseSwitch());
+            Application.Run(new fmForForeach());
         }
     }
 }
